@@ -1,0 +1,22 @@
+.logo_wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    align-items: center;
+    
+}
+
+.logoscm {
+    width: 50%;
+    height: auto;
+    margin-right: 2vmin;
+    color: var(--accent-color);
+    align-items: center;
+    text-align: center;
+    
+}
+
+.logoname {
+    text-align: center;
+    margin-top: 1vmin;
+}

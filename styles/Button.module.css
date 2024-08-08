@@ -1,0 +1,48 @@
+.button {
+    background: var(--accent-color);
+    font-size: 1.25rem;
+    padding: 0.5rem 1rem;
+    margin: 1.5rem auto;
+    color: #eee;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+  }
+
+  .outlined {
+    font-size: 1.25rem;
+    padding: 0.5rem 1rem;
+    color: #eee;
+    border: 2px solid var(--accent-color);
+    background: transparent;
+    cursor: pointer;
+  }
+
+  .button:hover,
+.outlined:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* 4K Screens */
+@media screen and (min-width: 2000px) {
+   
+    .button {
+      font-size: 2rem;
+    }
+    .outlined {
+      font-size: 2rem;
+    }
+
+  }
+
+  @media screen and (max-width: 600px) {
+    
+   
+    .button {
+      font-size: 1rem;
+    }
+    .outlined {
+      font-size: 1rem;
+    }
+   
+  }

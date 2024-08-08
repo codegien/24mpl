@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "name": "Pakam",
+    "image": "https://www.pakam.ng/svg/pkam-logo.svg",
+    "description": "Pakam App is a platform as a service (PaaS) that utilizes software applications and data to promote a circular economy and achieve sustainability through recycling and waste management.",
+    "tags": ["react", "node", "express", "mongodb", "tailwind", "react-query", "redux", "material-ui"],
+    "demo": "https://www.pakam.ng/"
+  },
+  {
+    "id": 2,
+    "name": "CourierPlus",
+    "image": "https://www.courierplus-ng.com/wp-content/uploads/2021/06/stickercourier-logo.png",
+    "description": "Website for  provider of end-to-end logistics solutions to businesses and institutions across Nigeria",
+    "tags": ["HTML5", "CSS3", "JQuery", "GSAP", "MS-Azure", "AWS", "Apache"],
+    "demo": "https://www.courierplus-ng.com/"
+  },
+  {
+    "id": 3,
+    "name": "FCMB BANK APP",
+    "image": "https://www.leadership.ng/wp-content/uploads/2023/04/fcmb-750x536.png",
+    "description": "Banking Application for First City Monoment Bank",
+    "tags": ["confidential", "confidential", "confidential"],
+    "demo": "https://play.google.com/store/apps/details?id=com.appzonegroup.fcmb&hl=en"
+  },
+  {
+    "id": 4,
+    "name": "Haba Insurtech",
+    "image": "https://www.haba.insure/wp-content/uploads/2020/09/Haba_Logo_True_Colour-1.png",
+    "description": "Insurance Mobile App, Haba Insurtech incorporate technology with conventional insurance operation for easy insurance and claim",
+    "tags": ["react-native", "react", "node", "express", "mongodb", "redux", "tailwind ", "material-ui"],
+    "demo": "https://play.google.com/store/apps/details?id=haba.insurtech"
+  },
+  {
+    "id": 5,
+    "name": "Klin code website",
+    "image": "https://www.klincodeltd.com/assets/logobg.png",
+    "description": "Website for Klin-code ltd, an environmental service provider which serves in the cleaning industry to help maintain general hygiene.",
+    "tags": ["react", "node", "mongodb", "redux", "express", "tailwind"],
+    "demo": "https://www.pcbcupid.com/"
+  },
+  {
+    "id": 6,
+    "name": "PCB Cupid",
+    "image": "https://imgur.com/tAZotn3.png",
+    "description": "E-commerce website for a PCB manufacturing company",
+    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
+    "demo": "https://www.pcbcupid.com/"
+  },
+  {
+    "id": 7,
+    "name": "Ndali",
+    "image": "https://www.ndali.app/img/redlogo.png",
+    "description": "A B2B supply chain managent/ordering platform for raw materials",
+    "tags": ["react", "react-native", "node", "mongodb", "redux", "tailwind"],
+    "demo": "https://www.ndali.app/"
+  },
+  {
+    "id": 8,
+    "name": "Kilinmanjaro",
+    "image": "https://www.sundryfood.com/wp-content/uploads/2020/05/kili-logo.png",
+    "description": "iOS and Android App for ordering for for Kilinmanjoro food restaurant",
+    "tags": ["react-native", "next", "node", "mongodb", "redux", "tailwind", "flutterwave"],
+    "demo": "https://play.google.com/store/apps/details?id=com.kilimanjaro.kilimeals"
+  },
+  {
+    "id": 9,
+    "name": "VSCode Portfolio",
+    "image": "https://imgur.com/mKkz0iz.png",
+    "description": "A themeable and developer-centric portfolio based on VSCode inspiration",
+    "tags": ["next", "css-modules"],
+    "source_code": "https://github.com/codegien/mpl",
+    "demo": "http://mpl.vercel.app/"
+  }
+]

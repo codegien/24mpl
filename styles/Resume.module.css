@@ -1,0 +1,117 @@
+/* Default styles (assuming base margin unit in Tailwind is 0.25rem) */
+.name {
+    display: flex;
+    flex-direction: column;
+}
+
+.hi {
+    color: var(--accent-color);
+}
+
+.my {
+   
+        color: #e6f1ff;
+        font-size: 10vmin; /* Assuming `xl` is 16px */
+        margin-top: 1.25rem; /* Assuming 1 unit is 0.25rem */
+    }
+
+    .container {
+        /* Horizontal margin on all screens */
+       margin: 5rem auto 0 auto;
+        /* Top margin on all screens */
+        /* margin-top: 15rem; */
+        /* Align items vertically */
+        align-items: center;
+        /* Center items horizontally */
+        justify-content: center;
+        /* Justify text */
+        text-align: justify;
+      }
+      
+      /* Media query for large screens */
+      @media (min-width: 1024px) {
+        .container {
+          /* Larger horizontal margin on large screens */
+          margin: 5rem auto 0 auto;
+          /* Width set to 50% on large screens */
+          width: 50%;
+        }
+      }
+      
+
+/* Large breakpoint styles */
+@media (min-width: 1024px) {
+    .headercontainer {
+        margin-left: 15rem;
+        margin-right: 15rem;
+        width: 50%;
+    }
+   
+}
+
+/* CSS */
+.table {
+    display: table;
+    width: 100%; /* Assuming you want the table to be full width */
+    margin-bottom: 5vmin;
+    color: rgba(230, 241, 255, 1)
+  }
+  
+  .abt {
+    display: table-cell;
+    vertical-align: middle;
+    color: #e6f1ff;
+    font-size: 1.875rem;
+    margin-top: 1.25rem;
+    white-space: nowrap;
+    /* Align content vertically centered */
+  }
+  
+  .underline {
+    display: table-cell;
+    border-bottom: 1px solid rgba(230, 241, 255, 1);
+    width: 100%;
+  }
+  .summary {
+    font-size: clamp(8px, 20vmin, 16px);
+    line-height: 2;
+  }
+
+ .reslayout {
+  display: flex;
+  flex-direction: row;
+ }
+ .reslayout2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 8vmin;
+ }
+ .tab {
+  width: 25%;
+ }
+ .maintab {
+  width: 75%;
+ }
+ .tag {
+  color: var(--accent-color);
+  font-size: clamp(9px, 20vmin, 18px);
+ }
+.role {
+  color: #389fdc;
+  font-size: clamp(9px, 20vmin, 20px);
+  font-weight: bold;
+}
+.company {
+  font-style: italic;
+  font-size: clamp(9px, 20vmin, 16px);
+  color: #389fdc;
+ 
+}
+.duration {
+  font-size: clamp(7px, 16vmin, 14px);
+  font-weight: bold;
+  color: var(--accent-color);
+}
+.spacer {
+  margin-bottom: 8vmin;
+}
